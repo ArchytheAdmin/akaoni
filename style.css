@@ -87,7 +87,12 @@ margin:5px;
 
 }
 
-
+.hero {
+    height: 100vh;
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-position: center;
+  
 .hero {
 
 height:400px;
@@ -150,10 +155,5 @@ float:right;
 font-size:30px;
 color:red;
 
-  }
-.hero {
-    height: 100vh;
-    background-image: url("hero.jpg");
-    background-size: cover;
-    background-position: center;
+
 }
