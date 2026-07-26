@@ -151,3 +151,9 @@ font-size:30px;
 color:red;
 
   }
+.hero {
+    height: 100vh;
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+}
