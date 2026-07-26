@@ -3,7 +3,7 @@ body {
 margin:0;
 background:#050505;
 color:#fff;
-font-family: Orbitron, sans-serif;
+font-family:Arial, sans-serif;
 text-align:center;
 
 }
@@ -87,7 +87,25 @@ margin:5px;
 
 }
 
-    
+
+.hero {
+
+height:400px;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+
+background:
+
+linear-gradient(
+rgba(0,0,0,.6),
+rgba(0,0,0,.9)
+);
+
+}
+
+
 .hero h2 {
 
 font-size:70px;
@@ -131,6 +149,5 @@ width:80%;
 float:right;
 font-size:30px;
 color:red;
-
 
 }
